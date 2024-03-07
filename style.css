@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(#6420AA, #4B1880)
+}
+
+.container {
+    width: 360px;
+    padding: 33px;
+    align-items: center;
+    background-color: #fff;
+    margin-left: 33%;
+    margin-top: 5px;
+    border-radius: 12px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bolder;
+    margin: 15px;
+}
+
+.todo-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 270px;
+    padding: 8px;
+    border: 2px solid #4B1880;
+    outline: none;
+    font-size: 20px;
+    margin-right: 2px;
+    border-radius: 12px;
+}
+
+button {
+    width: 60px;
+    height: 41px;
+    background-color: #4B1880;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+
+.text ul {
+    position: relative;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.text ul i {
+    position: absolute;
+    right: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+/* Responsive css */
+@media (min-width: 480) and (max-width: 767){
+    .container {
+        margin: auto;
+        margin-top: 100px;
+        /* width: 100px; */
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        margin: auto;
+        margin-top: 100px;
+        /* width: 100px; */
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1239px) {
+    .container {
+        margin: auto;
+        margin-top: 100px;
+        /* width: 100px; */
+    }
+
+}
